@@ -1,193 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(98420362, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/98420362" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();
+       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+       ym(98420362, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/98420362" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-    <title>Тестовый сайт с тегами</title>
+    <title>Тестирование кнопок и доходов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            color: white;
+            background: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
 <body>
-<header>
-    <h1>Заголовок H1</h1>
-    <h2>Заголовок H2</h2>
-    <h3>Заголовок H3</h3>
-    <h4>Заголовок H4</h4>
-    <h5>Заголовок H5</h5>
-    <h6>Заголовок H6</h6>
-    <nav>
-        <ul>
-            <li><a href="#A">Ссылка A</a></li>
-            <li><a href="#B">Ссылка B</a></li>
-        </ul>
-    </nav>
-</header>
-
-<main>
-    <article>
-        <p>Абзац P с <strong>жирным текстом</strong>, <em>курсивом</em>, <u>подчёркнутым текстом</u> и <small>мелким текстом</small>.</p>
-        <p>Текст с <sub>нижним индексом</sub> и <sup>верхним индексом</sup>.</p>
-        <blockquote>Это цитата с использованием блока BLOCKQUOTE.</blockquote>
-        <cite>Ссылка на источник</cite>
-        <hr>
-        <pre>Текст с тегом PRE для отображения предварительно отформатированного текста.</pre>
-        <code>Пример кода с использованием тега CODE.</code>
-    </article>
-
-    <section>
-        <h2>Секция с формой</h2>
-        <form action="#">
-            <fieldset>
-                <legend>Форма с полями</legend>
-                <label for="input">Текстовое поле:</label>
-                <input type="text" id="input">
-                <label for="textarea">Многострочное поле:</label>
-                <textarea id="textarea"></textarea>
-                <label for="select">Выпадающий список:</label>
-                <select id="select">
-                    <option>Опция 1</option>
-                    <option>Опция 2</option>
-                </select>
-                <button type="submit">Отправить</button>
-            </fieldset>
-        </form>
-    </section>
-
-    <aside>
-        <h3>Сайдбар</h3>
-        <p>Это блок с боковой информацией.</p>
-    </aside>
-
-    <div>
-        <h3>Пример списка и таблицы</h3>
-        <ol>
-            <li>Элемент списка 1</li>
-            <li>Элемент списка 2</li>
-        </ol>
-        <ul>
-            <li>Элемент списка без нумерации 1</li>
-            <li>Элемент списка без нумерации 2</li>
-        </ul>
-
-        <table>
-            <thead>
-            <tr>
-                <th>Заголовок столбца 1</th>
-                <th>Заголовок столбца 2</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Ячейка 1</td>
-                <td>Ячейка 2</td>
-            </tr>
-            </tbody>
-            <tfoot>
-            <tr>
-                <td>Итог 1</td>
-                <td>Итог 2</td>
-            </tr>
-            </tfoot>
-        </table>
-    </div>
-
-    <div>
-        <h3>Пример медиа</h3>
-        <img src="#" alt="Пример изображения">
-        <video controls>
-            <source src="#" type="video/mp4">
-        </video>
-        <audio controls>
-            <source src="#" type="audio/mp3">
-        </audio>
-    </div>
-
-    <div>
-        <h3>SVG Пример</h3>
-        <svg width="100" height="100">
-            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
-            <rect width="90" height="50" x="5" y="25" fill="blue"></rect>
-            <line x1="0" y1="0" x2="100" y2="100" stroke="green"></line>
-        </svg>
-    </div>
-
-    <div id="allrecords" class="t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="4620790" data-tilda-page-id="54574527" data-tilda-formskey="ee079fba72cc3c63f02883ca429bf649" data-tilda-lazy="yes" data-tilda-root-zone="com" data-tilda-project-headcode="yes" data-tilda-page-headcode="yes">
-        <div id="rec795705059" class="r t-rec" style="" data-animationappear="off" data-record-type="131">
-            <div class="t123">
-                <div class="t-container_100">
-                    <div class="t-width t-width_100">
-                        <main>
-                            <header>
-                                <article>
-                                    <div class="b-header-action-button">
-                                        <a class="b-action b-action-buy-ticket" title="Купить билет" href="#qtickets:organizer_id=12326&amp;window_width=960&amp;window_height=645&amp;base_color=d1050c" rel="qtickets" data-qtickets-orig-data="organizer_id=12326&amp;window_width=960&amp;window_height=645&amp;base_color=d1050c">
-                                            <span class="b-action-icon">Кнопка для шатаний</span>
-                                        </a>
-                                    </div>
-                                </article>
-                            </header>
-                        </main>
-
-                        <main>
-                            <header>
-                                100500
-                            </header>
-                        </main>
-                    </div>
-                </div>
-            </div>
+    <div class="container">
+        <h2>Тестирование кнопок с разными значениями</h2>
+        
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Текст: 1000.95 рублей</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Валюта сокращение: 990.95 руб.</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Валюта спец символ: &#x20bd; 1500 | $ 50</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>UTF-16: 𝟡𝟘𝟘.𝟚𝟘 ₽</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Текст (1 мб): Длинный текст...</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Просто число: 123456</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Запятая в начале: ,500</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Запятая неправильное положение: 5,00,0</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Нули в начале: 000123</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Пробелы неправильное положение:  1 00 0</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Иероглифы: 金钱 500</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Текст с цифрами: Скидка – 3 090 ₽</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Символы: +166 бонусов</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Номер телефона: +7 999 123-45-67</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Формулы (степени): 1.5 × 10³</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Отрицательное значение: -3 090 ₽</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>Валюта латинское сокращение: 4,709 RUR</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>HTML или XML: &lt;price&gt;1000.95&lt;/price&gt;</p>
+        </div>
+        <div class="section">
+            <a class="button" href="#">Купить</a>
+            <p>JSON: {"price": 1000.95}</p>
         </div>
     </div>
-
-    <!-- Добавленные кнопки с цифрами -->
-    <div class="js-store-prod-price t-store__prod-popup__price t-store__prod-popup__price-item t-name t-name_md" style="font-weight:400;">
-        <div class="js-product-price js-store-prod-price-val t-store__prod-popup__price-value" data-product-price-def="270" data-product-price-def-str="270">270</div>
-        <div class="t-store__prod-popup__price-currency" translate="no">р.</div>
-        <div class="t-store__prod__price-portion">
-            <span class="t-store__prod__price-portion-slash">/</span>1 шт
-        </div>
-    </div>
-    <div class="js-store-prod-price t-store__prod-popup__price t-store__prod-popup__price-item t-name t-name_md" style="font-weight:400;">
-        <div class="js-product-price js-store-prod-price-val t-store__prod-popup__price-value" data-product-price-def="350" data-product-price-def-str="350">350</div>
-        <div class="t-store__prod-popup__price-currency" translate="no">р.</div>
-        <div class="t-store__prod__price-portion">
-            <span class="t-store__prod__price-portion-slash">/</span>1 шт
-        </div>
-    </div>
-</main>
-
-<footer>
-    <p>Подвал страницы</p>
-    <progress value="50" max="100"></progress>
-    <meter value="2" min="0" max="10"></meter>
-</footer>
-
-<div>
-    <h3>Пример специальных тегов</h3>
-    <abbr title="Аббревиатура">HTML</abbr>
-    <dfn>Определение</dfn>
-    <kbd>Ctrl + S</kbd>
-    <s>Зачеркнутый текст</s>
-    <q>Это пример цитаты внутри текста.</q>
-    <ins>Вставленный текст</ins>
-    <del>Удаленный текст</del>
-    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
-    <object data="#" type="image/svg+xml">Альтернативный контент для объекта</object>
-</div>
 </body>
 </html>
