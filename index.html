@@ -142,6 +142,35 @@
             <a class="button" href="#">Купить</a>
             <p>JSON: {"price": 1000.95}</p>
         </div>
+
+        <h2>Формы с кнопками и ценами</h2>
+
+        <div class="section">
+            <h3>Форма с текстом</h3>
+            <form>
+                <label for="text-price">Цена:</label>
+                <input type="text" id="text-price" name="text-price" value="1000.95 рублей">
+                <input type="submit" value="Купить">
+            </form>
+        </div>
+
+        <div class="section">
+            <h3>Форма с валютой спец символов</h3>
+            <form>
+                <label for="symbol-price">Цена:</label>
+                <input type="text" id="symbol-price" name="symbol-price" value="&#x20bd; 1500 | $ 50">
+                <input type="submit" value="Купить">
+            </form>
+        </div>
+
+        <div class="section">
+            <h3>Форма с валютой латинские сокращения</h3>
+            <form>
+                <label for="latin-price">Цена:</label>
+                <input type="text" id="latin-price" name="latin-price" value="4,709 RUR">
+                <input type="submit" value="Купить">
+            </form>
+        </div>
     </div>
 </body>
 </html>
